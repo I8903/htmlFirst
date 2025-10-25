@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TORA PROJECT | 自分らしく働くための学びサイト</title>
+    <meta name="description"
+        content="未経験でも4ヶ月で理想の自分へ。実践的Web制作スクールで“自由な働き方”を手に入れよう。今月ご契約でAmazonギフト券5万円分プレゼント。LINEで無料相談受付中。">
+
+    <!-- OGP設定（SNS・LINE・検索シェア用） -->
+    <meta property="og:title" content="TORA PROJECT | 自分らしく働くための学びサイト">
+    <meta property="og:description" content="Web制作・副業スキルを学べる20代向けオンラインスクール。『自分らしく働く』未来を応援します。">
+    <meta property="og:image" content="img/ogp.png">
+    <meta property="og:url" content="https://toraproject.jp/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TORA PROJECT">
+
+    <!-- Twitterカード設定 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TORA PROJECT| 自分らしく働くための学びサイト">
+    <meta name="twitter:description" content="Web制作・副業スキルを学べるオンラインスクール。『自分らしく働く』未来を応援します。">
+    <meta name="twitter:image" content="img/ogp.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="img/png" sizes="32x32" href="img/logo.png">
+
+    <!-- Webフォントなど -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- CSS・JS読み込み -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <picture>
+                <!-- スマホ用（〜768px） -->
+                <source media="(max-width: 768px)" srcset="img/sp_header_bg.png">
+                <!-- PC用（769px〜） -->
+                <source media="(min-width: 769px)" srcset="img/pc_header_bg.png">
+                <!-- デフォルト（対応しないブラウザ向け） -->
+                <img src="img/pc_header_bg.png" alt="自分らしい働き方を叶えるオンライン研修・AI活用スクールのキャンペーンバナー|Amazonギフト券5万円分プレゼント">
+            </picture>
+        </div>
+        <!-- PC用　　-->
+        <div class="pc-header-cta pc-header" aria-hidden="true">
+            <a href="https://lin.ee/sltzYxm" class="cta-link" aria-label="LINEで無料相談|オンライン研修・AI活用スクールの資料請求と申込みはこちら">
+                <img src="img/pc_line.png" alt="LINEで無料相談|オンライン研修・AI活用スクールの資料請求と申込みはこちら" width="520" height="120"
+                    loading="lazy" decoding="async">
+            </a>
+        </div>
+
+        <!-- SP用 -->
+        <div class="sp-header-cta sp-header" aria-hidden="true">
+            <div class="sp-top">
+                <img src="img/sp_header_text.png" alt="今月限定キャンペーン|LINEで無料相談・資料請求（オンライン学習 / 副業・キャリア支援）" width="640"
+                    height="360" loading="lazy" decoding="async">
+            </div>
+            <a href="https://lin.ee/sltzYxm" class="cta-link"
+                aria-label="Amazonギフト券5万円分プレゼント|LINEから簡単申込み（オンライン研修・Webスキル習得）">
+                <img src="img/sp_header_ctaBotton.png" alt="Amazonギフト券5万円分プレゼント|LINEから簡単申込み（オンライン研修・Webスキル習得）"
+                    width="640" height="140" loading="lazy" decoding="async">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- ========== 導入文セクション ========== -->
+        <section class="introduction" id="intro">
+            <!-- SEO対策用タイトル -->
+            <h2 class="intro-title">
+                副業で月5〜10万円を目指す|WEBスキルを身につけて個人で仕事を受注できるように
+            </h2>
+
+            <div class="intro-top">
+                <figure class="intro-pill">
+                    <img src="img/introduction_month5Text.png" alt="副業として月5〜10は稼げるようになりたい（在宅ワーク・Web制作・フリーランス志望の方向け）"
+                        loading="lazy" decoding="async">
+                </figure>
+                <figure class="intro-pill">
+                    <img src="img/introduction_skillText.png"
+                        alt="WEBスキルを身につけて、個人で仕事を受注できるようになりたい（コーディング・デザイン・WordPress・AI活用）" loading="lazy"
+                        decoding="async">
+                </figure>
+                <p class="intro-lead fade-up">
+                    そんな思いから<strong>副業</strong>に興味を持つものの…
+                </p>
+                <figure class="intro-visual">
+                    <img src="img/introduction_firstImage.png" alt="自宅のPCで学習しながら副業スキルを身につけるイメージ" loading="lazy"
+                        decoding="async">
+                </figure>
+                <img class="intro-arrow" src="img/sp_introduction_arrow.png" alt="" aria-hidden="true" loading="lazy"
+                    decoding="async">
+            </div>
+
+            <div class="intro-question fade-up">
+                <p>
+                    このような不安から、<br>
+                    なかなか一歩が踏み出せずにいませんか？
+                </p>
+            </div>
+
+            <div class="intro-bubbles">
+                <figure class="bubble">
+                    <img src="img/introduction_speechBubbleF.png"
+                        alt="どうやったら仕事が取れるようなスキルを身につけて良いのか分からない…（Web制作・デザイン・プログラミングの学び方が不安）" loading="lazy"
+                        decoding="async">
+                </figure>
+                <figure class="bubble">
+                    <img src="img/introduction_speechBubbleS.png"
+                        alt="現場では専門用語も多いので、会話についていけるか不安…（HTML・CSS・JavaScript・WordPressの基礎から学びたい）" loading="lazy"
+                        decoding="async">
+                </figure>
+                <figure class="bubble">
+                    <img src="img/introduction_speechBubbleT.png"
+                        alt="スクールに通っても、卒業後に本当に仕事が受注できるようになるか不安…（案件獲得・ポートフォリオ・営業）" loading="lazy" decoding="async">
+                </figure>
+
+                <figure class="intro-anxiety">
+                    <img src="img/introduction_anxiety.png" alt="不安そうにPCで相談する女性のイラスト" loading="lazy" decoding="async">
+                </figure>
+            </div>
+        </section>
+
+        <!-- =========== 目標セクション =========== -->
+        <section class="aim" id="aim">
+            <div class="aim-head fade-up">
+                <p class="aim-badge">TORA PROJECTなら</p>
+                <h2 class="aim-title">こんな<strong>WEBデザイナー</strong>を目指せます！</h2>
+            </div>
+
+            <ul class="aim-list" role="list">
+                <li class="aim-item">
+                    <div class="aim-bubble">
+                        <p class="aim-bubble-lead"><span>知識ゼロから、</span>自分の力で<br>Webサイトを作れるようになる</p>
+                    </div>
+                    <figure class="aim-illust">
+                        <img src="img/aim_imgF.png" alt="ノートPCで学習するイラスト" loading="lazy" decoding="async">
+                    </figure>
+                </li>
+
+                <li class="aim-item">
+                    <div class="aim-bubble">
+                        <p class="aim-bubble-lead"><span>副業・フリーランス</span>として<br>お仕事を受けられるスキルを習得</p>
+                    </div>
+                    <figure class="aim-illust">
+                        <img src="img/aim_imgS.png" alt="チームで案件に取り組むイラスト" loading="lazy" decoding="async">
+                    </figure>
+                </li>
+
+                <li class="aim-item">
+                    <div class="aim-bubble">
+                        <p class="aim-bubble-lead">「<span>好きな場所で、好きな仕事を</span>」<br>実現できる働き方へ</p>
+                    </div>
+                    <figure class="aim-illust">
+                        <img src="img/aim_imgT.png" alt="在宅ワークで面談するイラスト" loading="lazy" decoding="async">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+
+        <!-- ========== 自社セクション ========== -->
+        <section class="ownCompany" id="about">
+            <div class="oc-wrap">
+                <div class="oc-head fade-up">
+                    <img class="oc-logo" src="img/logo.png" alt="TORA PROJECT ロゴ" width="120" height="120"
+                        loading="lazy" decoding="async">
+                    <h2 class="oc-title">
+                        TORA PROJECTって？<br>
+                        <span>副業・在宅で案件を目指せるWeb制作スクール</span>
+                    </h2>
+                </div>
+
+                <div class="oc-copy">
+                    <h3 class="oc-lead fade-up">「スキル」だけじゃない、<br><span>“自分を変える”</span>スクールです。</h3>
+                    <p class="oc-desc">
+                        <strong>TORA PROJECT</strong>は、<strong>Web制作</strong>を通して
+                        <strong>自分の可能性</strong>を広げる実践型のスクール。動画を見て終わりではなく、
+                        <strong>現役講師の伴走サポート</strong>で、HTML/CSS/JavaScriptやWordPressを
+                        <strong>一歩ずつ「できる」まで</strong>積み上げます。<br>
+                        卒業後は<strong>副業・フリーランス</strong>としての案件獲得や、在宅ワークの実現を目指せます。
+                    </p>
+                </div>
+
+                <figure class="oc-media">
+                    <picture>
+                        <img src="img/ownCompany_img.jpg" alt="現役講師の指導でWeb制作スキルを学ぶ受講イメージ" loading="lazy"
+                            decoding="async">
+                    </picture>
+                </figure>
+            </div>
+        </section>
+
+
+        <!-- ========== 強みセクション ========== -->
+        <section class="strengths" id="strengths">
+            <div class="st-head fade-up">
+                <p class="st-badge">STRENGTHS</p>
+                <p class="st-eyebrow">TORA PROJECTの</p>
+                <h2 class="st-title">3つの<strong>強み</strong></h2>
+            </div>
+
+            <ul class="st-list" role="list">
+                <!-- 01 -->
+                <li class="st-item slide-in">
+                    <figure class="st-illust">
+                        <img src="img/strengths_imgF.png" alt="学習計画の提案を受ける受講生のイメージ" loading="lazy" decoding="async">
+                    </figure>
+                    <div class="st-body">
+                        <h3 class="st-h3">無理なく続けられる設計で、<br>成長を習慣化。</h3>
+                        <p class="st-text">
+                            忙しい人でも続けられるよう、<strong>個別プラン</strong>で学習を設計。
+                            あなたのスケジュールに合わせて、<strong>Web制作</strong>の基礎から実践まで段階的に伴走します。
+                        </p>
+                    </div>
+                </li>
+
+                <!-- 02 -->
+                <li class="st-item slide-in-right">
+                    <figure class="st-illust">
+                        <img src="img/strengths_imgS.png" alt="質問に応えるメンターと受講生のイメージ" loading="lazy" decoding="async">
+                    </figure>
+                    <div class="st-body">
+                        <h3 class="st-h3">分からない時、そばにいる人がいる安心感。</h3>
+                        <p class="st-text">
+                            いつでも質問OK。<strong>Slack</strong>や定期セッションで“つまずき”を即解決。
+                            <strong>一人じゃない学び</strong>だから最後までやり切れます。
+                        </p>
+                    </div>
+                </li>
+
+                <!-- 03 -->
+                <li class="st-item slide-in">
+                    <figure class="st-illust">
+                        <img src="img/strengths_imgT.png" alt="ポートフォリオ制作に取り組む受講生のイメージ" loading="lazy" decoding="async">
+                    </figure>
+                    <div class="st-body">
+                        <h3 class="st-h3">学びを通して、“自分の未来”を動かす力を。</h3>
+                        <p class="st-text">
+                            最終課題は<strong>企業案件に挑戦</strong>。学ぶだけで終わらず、
+                            <strong>ポートフォリオ</strong>として使える成果物を残し、<strong>副業・フリーランス</strong>の受注につなげます。
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+
+
+        <!-- ========== Whyセクション ========== -->
+        <section class="why" id="why">
+            <div class="why-head">
+                <h2 class="why-title fade-up">
+                    なぜ今、Webデザインやプログラミングが<br>
+                    <span>“副業・フリーランス”</span>に最適なのか？
+                </h2>
+                <p>副業を始めたい。もう少し収入を増やしたい。<br>
+                    そんな想いから、「<strong>Webデザイン</strong>」や「<strong>プログラミング</strong>」を学ぶ人が今、とても増えています。
+                </p>
+                <p>
+                    なぜこの2つのスキルが“副業・フリーランス”の入り口として選ばれているのでしょうか？
+                </p>
+                <p>
+                    それは、ただ流行っているからではなく、時代の変化と働き方の自由化に合わせて、<strong>Webスキル</strong>の価値がこれまで以上に高まっているからです！
+                </p>
+            </div>
+
+            <ul class="why-list" role="list">
+                <li class="why-item fade-up">
+                    <p class="why-num">01</p>
+                    <h3>需要が安定して高い</h3>
+                    <p>企業も個人も、今や「Webで集客・販売」が当たり前。<br>
+                        サイト制作・実装スキルは常にニーズがあり、案件に困りにくい安定した領域です。
+                    </p>
+                    <img src="img/reason_imgF.png" alt="安定したWeb制作需要を示すグラフのイラスト" loading="lazy" decoding="async">
+                </li>
+
+                <li class="why-item fade-up">
+                    <p class="why-num">02</p>
+                    <h3>PC1台で完結・在宅OK</h3>
+                    <p>Web制作は、場所と時間を選ばない働き方。<br>
+                        本業や家事のスキマ時間でも進められ、夜2時間からでも収入につながるスキルです。
+                    </p>
+                    <img src="img/reason_imgS.png" alt="ノートパソコンで在宅ワークをする人物のイラスト" loading="lazy" decoding="async">
+                </li>
+
+                <li class="why-item fade-up">
+                    <p class="why-num">03</p>
+                    <h3>積み上がる“スキル資産”</h3>
+                    <p>学習した内容がそのまま将来の資産に。<br>
+                        副業→転職→独立まで選択肢が広がり、続けるほどレートを上げやすい分野です。
+                    </p>
+                    <img src="img/reason_imgT.png" alt="積み上がるスキルと成長を表すグラフのイラスト" loading="lazy" decoding="async">
+                </li>
+
+                <li class="why-item fade-up">
+                    <p class="why-num">04</p>
+                    <h3>AI時代で価値が上がる</h3>
+                    <p>AIの発展で作業の自動化が進んでも、<br>
+                        “提案力・設計力・デザイン力”の価値はむしろ上昇。AIを活用できる制作者は、今後ますます求められます。
+                    </p>
+                    <img src="img/reason_imgFo.png" alt="AIとクリエイターが協働する未来のイラスト" loading="lazy" decoding="async">
+                </li>
+            </ul>
+        </section>
+
+
+        <!-- ========== 比較セクション ========== -->
+        <section class="comparison" id="comparison">
+            <div class="cmp-head">
+                <p class="cmp-badge fade-up">差別化ポイント</p>
+                <h2 class="cmp-title fade-up">TORA PROJECTはここが違う!</h2>
+                <p class="cmp-lead fade-up">
+                    他のスクールでは「教材を渡して終わり」が多い中、<br>
+                    <strong>TORA PROJECT</strong>は“<strong>最後まで続けられる仕組み</strong>”を徹底。<br>
+                    スキルと自信、どちらも手に入れられるスクールです。
+                </p>
+                <p class="cmp-sub fade-up">
+                    <strong>TORA PROJECT</strong>は他のスクールと比べて、<br>
+                    <span>成果が出るまでサポート</span>が<span>充実！</span>
+                </p>
+            </div>
+
+            <!-- 横スクロール用 -->
+            <div class="cmp-scroll" role="region" aria-label="スクール比較表 横スクロール">
+                <table class="cmp-table">
+                    <caption class="visually-hidden">
+                        Web制作スクール比較：TORA PROJECT と A社、B社、C社の学習形式、カリキュラム、講師、キャリア支援、卒業後サポート
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="sticky">比較項目</th>
+                            <th scope="col" aria-label="TORA PROJECT">TORA PROJECT</th>
+                            <th scope="col">A社</th>
+                            <th scope="col">B社</th>
+                            <th scope="col">C社</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="sticky">学習形式</th>
+                            <td>自習+オンライン講義+Slack</td>
+                            <td>自習＋マンツーマン＋チャット</td>
+                            <td>自習＋チャット</td>
+                            <td>マンツーマン</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="sticky">カリキュラム</th>
+                            <td>オンライン講義＋実践＋自習＋コンサル</td>
+                            <td>オンライン授業・統一カリキュラム</td>
+                            <td>統一カリキュラム</td>
+                            <td>統一カリキュラム</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="sticky">講師</th>
+                            <td>現役コーダー</td>
+                            <td>現役コーダー</td>
+                            <td>スクール講師</td>
+                            <td>スクール講師</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="sticky">キャリア支援</th>
+                            <td>キャリアアドバイザー</td>
+                            <td>転職支援・キャリア相談</td>
+                            <td>アドバイスのみ</td>
+                            <td>―</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="sticky">卒業後サポート</th>
+                            <td>Slackコミュニティ/サポート</td>
+                            <td>転職紹介</td>
+                            <td>―</td>
+                            <td>―</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- 端にグラデの“にじみ” -->
+                <div class="cmp-fade left" aria-hidden="true"></div>
+                <div class="cmp-fade right" aria-hidden="true"></div>
+            </div>
+        </section>
+
+
+
+        <!-- ========== BeforeAfterセクションセクション ========== -->
+        <section class="beforeAfter" id="beforeAfter">
+            <h2 class="ba-title">未経験からキャリアを築いた受講生の声</h2>
+
+            <!-- 1人目 -->
+            <article class="ba-item fade-up">
+                <div class="frame">
+                    <div class="frame__inner">
+                        <h3 class="ba-lead">
+                            会社の給料だけに頼らず、
+                            <span>“自分の力で収入をつくれるように”</span><br>
+                            <small>週末から始めたWeb制作で、少しずつ自信と余裕を取り戻した</small>
+                        </h3>
+                        <div class="ba-block">
+                            <section class="ba-card ba-before" aria-labelledby="b1">
+                                <p class="ba-badge">Before</p>
+                                <h4 id="b1" class="vh">受講前</h4>
+                                <p>
+                                    頑張って働いていても、給料はほとんど消えていく。<br>
+                                    「このままでいいのかな…」やりたいことも自信もなく、
+                                    何から始めればよいか分からなかった。
+                                </p>
+                            </section>
+
+                            <div class="ba-arrow" aria-hidden="true"></div>
+
+                            <section class="ba-card ba-after" aria-labelledby="a1">
+                                <p class="ba-badge orange">After</p>
+                                <h4 id="a1" class="vh">受講後</h4>
+                                <p>
+                                    思い切ってWeb制作を学び、週末の数時間から副業をスタート。<br>
+                                    初めて自分の力で報酬を得て、“できない”が“できる”に変化。<br>
+                                    少しの勇気が、毎日に自信と目標をくれた。
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 2人目 -->
+            <article class="ba-item fade-up">
+                <div class="frame">
+                    <div class="frame__inner">
+                        <h3 class="ba-lead">
+                            “成長のない日々”から抜け出し、
+                            <span>スキルで未来を変えた。</span><br>
+                            <small>未経験から挑戦したWeb業界で、努力が評価される毎日へ</small>
+                        </h3>
+                        <div class="ba-block">
+                            <section class="ba-card ba-before" aria-labelledby="b2">
+                                <p class="ba-badge">Before</p>
+                                <h4 id="b2" class="vh">受講前</h4>
+                                <p>
+                                    毎日同じ作業の繰り返しで、成長を感じられない。<br>
+                                    「このままでいいのかな」とモヤモヤを抱えたまま、時間だけが過ぎていった。
+                                </p>
+                            </section>
+
+                            <div class="ba-arrow" aria-hidden="true"></div>
+
+                            <section class="ba-card ba-after" aria-labelledby="a2">
+                                <p class="ba-badge orange">After</p>
+                                <h4 id="a2" class="vh">受講後</h4>
+                                <p>
+                                    思い切ってWeb業界へ転職。最初は不安もあったが、<br>
+                                    「自分にできることがある」と実感できるように。<br>
+                                    今では努力がしっかり評価される環境で働けている。
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 3人目 -->
+            <article class="ba-item fade-up">
+                <div class="frame">
+                    <div class="frame__inner">
+                        <h3 class="ba-lead">
+                            縛られた働き方から卒業し、
+                            <span>“自分の生き方”を取り戻した。</span><br>
+                            <small>フリーランスとして、時間と自由を大切にできるように</small>
+                        </h3>
+                        <div class="ba-block">
+                            <section class="ba-card ba-before" aria-labelledby="b3">
+                                <p class="ba-badge">Before</p>
+                                <h4 id="b3" class="vh">受講前</h4>
+                                <p>
+                                    会社のルールに縛られ、「このまま続けるのか…」と悩む日々。<br>
+                                    自分の時間も気持ちも余裕がなかった。
+                                </p>
+                            </section>
+
+                            <div class="ba-arrow" aria-hidden="true"></div>
+
+                            <section class="ba-card ba-after" aria-labelledby="a3">
+                                <p class="ba-badge orange">After</p>
+                                <h4 id="a3" class="vh">受講後</h4>
+                                <p>
+                                    思い切ってフリーランスとして一歩を踏み出す。<br>
+                                    自分の力で仕事を取れるようになってからは、働き方を選べる自由を実感している。
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+
+
+
+
+
+        <!-- ========== CTAセクション ========== -->
+        <section class="cta">
+            <!-- PC版 -->
+            <div class="pc-cta-bg">
+                <img src="img/pc_cta_bg.png" alt="TORA PROJECT|オンラインスクールキャンペーン|LINEで無料相談・今月限定Amazonギフト券5万円プレゼント"
+                    loading="lazy" decoding="async">
+                <a href="https://lin.ee/sltzYxm" aria-label="LINEで無料相談する（TORA PROJECT公式）">
+                    <img src="img/pc_cta_button.png" alt="LINEで無料相談する|今月限定キャンペーン実施中" loading="lazy" decoding="async">
+                </a>
+            </div>
+
+            <!-- SP版 -->
+            <div class="sp-cta-bg">
+                <img src="img/sp_cta_bg.png" alt="スマホ版|TORA PROJECTで自分らしく働く力を育てる|LINEで無料相談・Amazonギフト券5万円分キャンペーン中"
+                    loading="lazy" decoding="async">
+                <a href="https://lin.ee/sltzYxm" aria-label="LINEで無料相談する（TORA PROJECTスマホ版）">
+                    <img src="img/sp_cta_button.png" alt="LINEで無料相談する|今月限定Amazonギフト券5万円分プレゼント" loading="lazy"
+                        decoding="async">
+                </a>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <p>TORA PROJECT | 自分らしく働くための学びサイト
+                <br>
+                &copy; 2025 TORA PROJECT — Be Yourself, Work Freely.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

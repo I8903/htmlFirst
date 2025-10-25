@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Noto Sans JP", system-ui, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+button:focus {
+    outline: none;
+}
+input:focus {
+    outline: none;
+}
+textarea:focus {
+    outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption {
+    text-align: left;
+    caption-side: top;
+}
+q {
+    quotes: none;
+}
+q:before, q:after {
+    content: '';
+    content: none;
+}
+small {
+    font-size: 80%;
+}
+sub {
+    font-size: 75%;
+    vertical-align: baseline;
+    position: relative;
+    top: 0.5em;
+}
+sup {
+    font-size: 75%;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.5em;
+}  
+mark {
+  background-color: #ffd166; /* オレンジ寄り */
+  color: #000;
+  font-weight: 600;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* ====== 画像のにじみ/はみ出し抑止 ====== */
+.introduction img {
+    image-rendering: -webkit-optimize-contrast;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 視覚的に非表示（スクリーンリーダー用） */
+.visually-hidden {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}

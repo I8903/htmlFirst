@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* ------------- アニメーション共通 ------------- */
+
+/* ▼ フェードアップ */
+/* 下からふわっと出る共通アニメーション */
+.fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.6s cubic-bezier(0.22, 1, 0.36, 1),
+        transform 1.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.fade-up.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* ▼ 横スライドイン */
+/* ←左から */
+.slide-in {
+    opacity: 0;
+    transform: translateX(-120px);
+    transition: opacity 1.6s cubic-bezier(0.22, 1, 0.36, 1),
+        transform 1.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.slide-in.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* →右から */
+.slide-in-right {
+    opacity: 0;
+    transform: translateX(120px);
+    transition: opacity 1.6s cubic-bezier(0.22, 1, 0.36, 1),
+        transform 1.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.slide-in-right.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* ▼ ポヨヨン */
+/* ボタン用ポヨヨンアニメーション */
+@keyframes poyoyon-btn{
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    15% {
+        transform: scale(0.99, 0.97);
+    }
+
+    30% {
+        transform: scale(1.02, 1.01);
+    }
+
+    50% {
+        transform: scale(0.99, 1.02);
+    }
+
+    70% {
+        transform: scale(1.01, 0.99);
+    }
+}
+
+/* PC用ポヨヨンアニメーション */
+@keyframes poyoyon-btn-pc {
+
+    0%,
+    100% {
+        transform: translateY(-241%) scale(1);
+    }
+
+    15% {
+        transform: translateY(-243%) scale(0.98, 0.9);
+    }
+
+    30% {
+        transform: translateY(-245%) scale(1.02, 1);
+    }
+
+    50% {
+        transform: translateY(-243%) scale(0.98, 1.05);
+    }
+
+    70% {
+        transform: translateY(-242%) scale(1.0, 0.9);
+    }
+}
